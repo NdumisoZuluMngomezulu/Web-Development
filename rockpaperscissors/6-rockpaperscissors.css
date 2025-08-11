@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+.move-button {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #e6e0e0;
+    background-color: transparent;
+    color: #e6e0e0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.paper{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid #e6e0e0;
+    background-color: black;
+    color: #e6e0e0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.scissors{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid #e6e0e0;
+    background-color: black;
+    color: #e6e0e0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.reset{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid #e6e0e0;
+    background-color: black;
+    color: #e6e0e0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.heading{
+    color: #e6e0e0;
+    font-size: 20px;
+}
+
+.Result{
+    color: #e6e0e0;
+    font-size: 20px;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Copy Rock Paper Scissors</title>
+        <link rel="stylesheet" href="6-rockpaperscissors.css">
+    </head>
+    <body>
+        <p class="heading" >Rock Paper Scissors</p>
+        <button onclick="
+        playGame('rock');
+
+        "><img class="move-button" src="/images/1faa8.png"></button>
+        <button onclick="
+        playGame('paper');
+
+        "><img class="move-button" src="/images/428-4288905_thumb-image-paper-emoji.png"></button>
+        <button onclick="
+        playGame('scissors');
+
+        "><img class="move-button" src="/images/490-4906316_scissors-emoji-clipart-circle-hd-png-download.png"></button>
+
+        <button class="reset" onclick="
+        score.wins = 0;
+        score.losses = 0;
+        score.ties = 0;
+        localStorage.removeItem('score');
+        "
+        >Reset</button>
+        <p> </p>
+
+        <p class="Result">Result</p> 
+
+        <script src="6-rockpaperscissors.js"></script>
+    </body>
+</html>
