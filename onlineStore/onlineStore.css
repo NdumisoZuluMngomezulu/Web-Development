@@ -43,12 +43,6 @@ nav {
   color: lightgray;
 }
 
-.limitedOffer {
-  font-size: 20px;
-  border-bottom: 2px solid rgb(194, 40, 156);
-  cursor: pointer;
-}
-
 .navBottom {
   display: flex;
   align-items: center;
@@ -64,7 +58,6 @@ nav {
 
 .slider {
   background-color: aliceblue;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   overflow: hidden;
 }
 
@@ -215,9 +208,8 @@ nav {
 
 .product {
   height: 100vh;
-  background-color: rgb(107, 101, 101);
+  background-color: rgb(55, 127, 221);
   position: relative;
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .payment {
@@ -583,4 +575,5 @@ footer {
     width: 90%;
     padding: 20px;
   }
+
 }
